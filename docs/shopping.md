@@ -10,6 +10,14 @@ pageClass: routes
 
 <Route author="xyqfer" example="/westore/new" path="/westore/new"/>
 
+## 大麦网
+
+### 票务更新
+
+<Route author="hoilc" example="/damai/activity/上海/音乐会/全部/柴可夫斯基" path="/damai/activity/:city/:category/:subcategory/:keyword?" :paramsDesc="['城市, 如果不需要限制, 请填入`全部`', '分类, 如果不需要限制, 请填入`全部`', '子分类, 如果不需要限制, 请填入`全部`', '搜索关键字, 置空为不限制']"/>
+
+城市、分类名、子分类名, 请参见[大麦网搜索页面](https://search.damai.cn/search.htm)
+
 ## 多抓鱼
 
 ### 搜索结果
@@ -42,11 +50,32 @@ pageClass: routes
 
 </Route>
 
+## 酒云网
+
+### 最新商品
+
+<Route author="MeXunco" example="/wineyun/home" path="/wineyun/:category" :paramsDesc="['分类名']" >
+| 全部     | 闪购 | 秒发 | 跨境    | 
+| -------- | ------- | --- | ------- | 
+| home | shangou | miaofa | csborder |
+
+</Route>
+
 ## 礼物说
 
 ### 礼物说
 
 <Route author="sanmmm" example="/liwushuo/index" path="/liwushuo/index"/>
+
+## 缺书网
+
+### 促销
+
+<Route author="kt286" example="/queshu/sale" path="/queshu/sale"/>
+
+### 单品活动信息
+
+<Route author="kt286" example="/queshu/book/34626813" path="/queshu/book/:bookid" :paramsDesc="['图书ID，可在链接中获取']"/>
 
 ## 什么值得买
 
@@ -152,6 +181,12 @@ pageClass: routes
 
 <Route author="xyqfer" example="/coolbuy/newest" path="/coolbuy/newest"/>
 
+## 微店
+
+### 商品上新
+
+<Route author="LogicJake" example="/weidian/goods/431508863" path="/weidian/goods/:id" :paramsDesc="['商铺 id']"/>
+
 ## 小米
 
 ### 小米众筹
@@ -165,3 +200,9 @@ pageClass: routes
 ### 小米有品每日上新
 
 <Route author="xyqfer" example="/mi/youpin/new" path="/mi/youpin/new"/>
+
+## 有赞
+
+### 商品上新
+
+<Route author="LogicJake" example="/youzan/goods/13328377" path="/youzan/goods/:id" :paramsDesc="['商铺id']"/>
