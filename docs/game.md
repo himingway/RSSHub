@@ -86,6 +86,16 @@ pageClass: routes
 
 </Route>
 
+## Minecraft
+
+### Java 版游戏更新
+
+<Route author="TheresaQWQ" example="/minecraft/version" path="/minecraft/version" />
+
+### CurseForge Mod 更新
+
+<Route author="Indexyz" example="/curseforge/files/jei" path="/curseforge/files/:project" :paramsDesc="['项目的短名或者 `Project ID`. 项目的短名可以在地址栏获取到, 例如地址为 `https://minecraft.curseforge.com/projects/non-update`, 短名就为 `non-update`. `Project ID` 可在 `Overview` 中的 `About This Project` 中找到']"/>
+
 ## Nintendo
 
 ### eShop 新发售游戏
@@ -100,11 +110,15 @@ pageClass: routes
 
 <Route author="HFO4" example="/nintendo/direct" path="/nintendo/direct"/>
 
+### Switch 本体更新情报（日本）
+
+<Route author="hoilc" example="/nintendo/system-update" path="/nintendo/system-update"/>
+
 ## PlayStation
 
 ### PlayStation Store 游戏列表
 
-<Route author="DIYgod" example="/ps/list/STORE-MSF86012-PLUS_FTT_CONTENT" path="/ps/list/:gridName" :paramsDesc="['列表的 grid 名']">
+<Route author="DIYgod" example="/ps/list/STORE-MSF86012-PLUS_FTT_CONTENT" path="/ps/list/:gridName" :paramsDesc="['列表的 grid 名']" radar="1">
 
 适用于 URL 如 <https://store.playstation.com/zh-hans-hk/grid/STORE-MSF86012-PLUS_FTT_CONTENT> 的列表页，比如 [PSN 每月免费游戏](https://store.playstation.com/zh-hans-hk/grid/STORE-MSF86012-PLUS_FTT_CONTENT) 的 gridName 为 STORE-MSF86012-PLUS_FTT_CONTENT
 
@@ -112,11 +126,11 @@ pageClass: routes
 
 ### PlayStation Network 用户奖杯
 
-<Route author="DIYgod" example="/ps/trophy/DIYgod_" path="/ps/trophy/:id" :paramsDesc="['用户 ID']"/>
+<Route author="DIYgod" example="/ps/trophy/DIYgod_" path="/ps/trophy/:id" :paramsDesc="['用户 ID']" radar="1"/>
 
 ### PlayStation 4 系统更新纪录
 
-<Route author="Jeason0228" example="/ps/ps4updates/" path="/ps/ps4updates/" />
+<Route author="Jeason0228" example="/ps/ps4updates/" path="/ps/ps4updates/" radar="1"/>
 
 ## psnine
 
@@ -141,7 +155,7 @@ pageClass: routes
 
 ### Steam search
 
-<Route author="maple3142" example="/steam/search/specials=1&term=atelier" path="/steam/search/:params" :paramsDesc="['搜寻参数']">
+<Route author="maple3142" example="/steam/search/specials=1&term=atelier" path="/steam/search/:params" :paramsDesc="['搜寻参数']" radar="1">
 
 参数 params 请从 Steam 的 URL 取得
 
@@ -151,7 +165,7 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 
 ### Steam news
 
-<Route author="maple3142" example="/steam/news/282800" path="/steam/news/:appids" :paramsDesc="['游戏 id']"/>
+<Route author="maple3142" example="/steam/news/282800" path="/steam/news/:appids" :paramsDesc="['游戏 id']" radar="1"/>
 
 ## SteamGifts
 
@@ -187,6 +201,12 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 | ------ | ---- | -------- |
 | update | hot  | spent    |
 
+## 公主链接
+
+### 日服公告
+
+<Route author="SayaSS" example="/pcr/news" path="/pcr/news"/>
+
 ## 篝火营地
 
 ### 游戏资讯
@@ -207,11 +227,11 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 
 ### 更新情报
 
-<Route author="DIYgod" example="/mhw/update" path="/mhw/update"/>
+<Route author="DIYgod" example="/mhw/update" path="/mhw/update" radar="1"/>
 
 ### 最新消息
 
-<Route author="DIYgod" example="/mhw/news" path="/mhw/news"/>
+<Route author="DIYgod" example="/mhw/news" path="/mhw/news" radar="1"/>
 
 ## 旅法师营地
 
@@ -257,6 +277,18 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 
 <Route author="Astrian" example="/arknights/news" path="/arknights/news"/>
 
+## 网易大神
+
+### 用户发帖
+
+<Route author="luyuhuang" example="/netease/ds/63dfbaf4117741daaf73404601165843" path="/netease/ds/:id" :paramsDesc="['用户ID']"/>
+
+## 王者荣耀
+
+### 新闻中心
+
+<Route author="Jeason0228" example="/pvp/newsindex/all" path="/pvp/newsindex/:type" :paramsDesc="['栏目分类,all=全部,rm=热门，xw=新闻,gg=公告,hd=活动,ss=赛事']"/>
+
 ## 小黑盒
 
 ### 用户动态
@@ -270,6 +302,12 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 ### 游戏打折情况
 
 <Route author="MyFaith" example="/xiaoheihe/discount" path="xiaoheihe/discount"/>
+
+## 英雄联盟
+
+### 新闻中心
+
+<Route author="Jeason0228" example="/lol/newsindex/all" path="/lol/newsindex/:type" :paramsDesc="['栏目分类,all=全部,zh=综合,gg=公告,ss=赛事,gl=攻略,sq=社区']"/>
 
 ## 游民星空
 
@@ -303,15 +341,15 @@ Example: `https://store.steampowered.com/search/?specials=1&term=atelier` 中的
 
 ### 游戏时光新闻
 
-<Route author="MyFaith" example="/vgtime/news" path="/vgtime/news"/>
+<Route author="MyFaith" example="/vgtime/news" path="/vgtime/news" radar="1"/>
 
 ### 游戏时光游戏发售表
 
-<Route author="MyFaith" example="/vgtime/release" path="/vgtime/release"/>
+<Route author="MyFaith" example="/vgtime/release" path="/vgtime/release" radar="1"/>
 
 ### 关键词资讯
 
-<Route author="DIYgod" example="/vgtime/keyword/怪物猎人" path="/vgtime/keyword/:keyword"/>
+<Route author="DIYgod" example="/vgtime/keyword/怪物猎人" path="/vgtime/keyword/:keyword" radar="1"/>
 
 ## 游研社
 

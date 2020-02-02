@@ -63,7 +63,7 @@ GitHub 官方也提供了一些 RSS:
 
 <Route author="DIYgod" example="/github/trending/daily/javascript" path="/github/trending/:since/:language?" :paramsDesc="['时间跨度, 可在 [Trending 页](https://github.com/trending/javascript?since=monthly) URL 中找到, 可选 daily weekly monthly', '语言, 可在 [Trending 页](https://github.com/trending/javascript?since=monthly) URL 中找到']" radar="1"/>
 
-### 仓库 Issue
+### 仓库 Issues
 
 <Route author="HenryQW" example="/github/issue/DIYgod/RSSHub" path="/github/issue/:user/:repo" :paramsDesc="['用户名', '仓库名']" radar="1"/>
 
@@ -111,7 +111,7 @@ GitHub 官方也提供了一些 RSS:
 | 根据 fork 数量排序 | forks     |
 | 根据更新时间排序   | updated   |
 
-### 用户 Starred Repositories
+### 用户 Star 的仓库
 
 <Route author="LanceZhu" example="/github/starred_repos/DIYgod" path="/github/starred_repos/:user" :paramsDesc="['用户名']" radar="1"/>
 
@@ -151,6 +151,40 @@ GitHub 官方也提供了一些 RSS:
 | -------- | ----------------------------- |
 | story    | 默认值，链向用户分享的地址    |
 | comments | 链向 Hacker News 上的讨论页面 |
+
+</Route>
+
+## Hex-Rays
+
+### Hex-Rays News
+
+<Route author="hellodword" example="/hex-rays/news" path="/hex-rays/news"/>
+
+## ITSlide
+
+### 最新
+
+<Route author="Yangshuqing" example="/itslide/new" path="/itslide/new" radar="1"/>
+
+## Kaggle
+
+### Discussion
+
+<Route author="LogicJake" example="/kaggle/discussion/387811/active" path="/kaggle/discussion/:forumId/:sort?" :paramsDesc="['讨论区 id, 打开网页请求, 搜索 forumId；填 all 可以订阅全站讨论区', '排序方式见下表, 默认为 hot']">
+
+| hot     | recent          | new             | top        | active        |
+| ------- | --------------- | --------------- | ---------- | ------------- |
+| Hotness | Recent Comments | Recently Posted | Most Votes | Most Comments |
+
+</Route>
+
+### Competitions
+
+<Route author="LogicJake" example="/kaggle/competitions" path="/kaggle/competitions/:category?" :paramsDesc="['类别, 默认为空']">
+
+| 空             | featured | research | recruitment | gettingStarted  | masters | playground | analytics |
+| -------------- | -------- | -------- | ----------- | --------------- | ------- | ---------- | --------- |
+| All Categories | Featured | Research | Recruitment | Getting started | Masters | Playground | Analytics |
 
 </Route>
 
@@ -206,6 +240,38 @@ GitHub 官方也提供了一些 RSS:
 
 </Route>
 
+## NOSEC.org
+
+### Posts
+
+<Route author="hellodword" example="/nosec/hole" path="/nosec/:keykind?" :paramsDesc="['对应文章分类']">
+
+| 分类     | 标识       |
+| :------- | :--------- |
+| 威胁情报 | `threaten` |
+| 安全动态 | `security` |
+| 漏洞预警 | `hole`     |
+| 数据泄露 | `leakage`  |
+| 专题报告 | `speech`   |
+| 技术分析 | `skill`    |
+| 安全工具 | `tool`     |
+
+</Route>
+
+## project-zero issues
+
+### issues
+
+<Route author="hellodword" example="/project-zero-issues" path="/project-zero-issues" />
+
+## Scala
+
+### Scala Blog
+
+<Route author="fengkx" example="/scala/blog/posts" path="/scala/blog/:part?" :paramsDesc="['部分']" >
+默认为All part参数可在url中获得
+</Route>
+
 ## segmentfault
 
 ### 频道
@@ -217,6 +283,18 @@ GitHub 官方也提供了一些 RSS:
 ### 最新发布
 
 <Route author="xyqfer" example="/testerhome/newest" path="/testerhome/newest"/>
+
+## Visual Studio Code Marketplace
+
+### Visual Studio Code 插件
+
+<Route author="SeanChao" example="/vscode/marketplace" path="/vscode/marketplace/:category?" :paramsDesc="['分类']">
+
+| Featured | Trending Weekly | Trending Monthly | Trending Daily | Most Popular | Recently Added |
+| -------- | --------------- | ---------------- | -------------- | ------------ | -------------- |
+| featured | trending        | trending_m       | trending_d     | popular      | new            |
+
+</Route>
 
 ## 阿里云
 
@@ -408,6 +486,27 @@ GitHub 官方也提供了一些 RSS:
 
 <Route author="loveely7" example="/oschina/topic/weekly-news" path="/oschina/topic/:topic" :paramsDesc="['主题名, 可从[全部主题](https://www.oschina.net/question/topics)进入主题页, 在 URL 中找到']"/>
 
+## 码农俱乐部
+
+### 话题
+
+<Route author="mlogclub" example="/mlog-club/topics/newest" path="/mlog-club/topics/:node" :paramsDesc="['node']">
+
+| node      | 名称     |
+| --------- | -------- |
+| newest    | 最新话题 |
+| recommend | 热门话题 |
+| 1         | 交流     |
+| 2         | 开源     |
+| 3         | 提问     |
+
+</Route>
+
+### 开源项目
+
+<Route author="mlogclub" example="/mlog-club/projects" path="/mlog-club/projects">
+</Route>
+
 ## 码农网
 
 ### 最新
@@ -458,6 +557,19 @@ GitHub 官方也提供了一些 RSS:
 | csharp     | c#         |
 | nodejs     | nodejs     |
 
+</Route>
+
+## 码农周刊
+
+### issues
+
+<Route author="tonghs" example="/manong-weekly" path="/manong-weekly" />
+
+## 平安银河实验室
+
+### posts
+
+<Route author="hellodword" example="/galaxylab" path="/galaxylab">
 </Route>
 
 ## 前端艺术家&&飞冰早报
@@ -539,6 +651,12 @@ GitHub 官方也提供了一些 RSS:
 ### 微信支付-商户平台公告
 
 <Route author="phantomk" example="/wechat-open/pay/announce" path="/wechat-open/pay/announce"/>
+
+## 微信小程序
+
+### 基础库更新日志
+
+<Route author="magicLaLa" example="/weixin/miniprogram/release" path="/weixin/miniprogram/release"/>
 
 ## 印记中文周刊
 
