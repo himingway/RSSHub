@@ -19,19 +19,20 @@ RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以�
 
 可以配合浏览器扩展 [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) 食用
 
-[Telegram 群](https://t.me/rsshub) | [Telegram 频道](https://t.me/awesomeRSSHub)
+[Telegram 群](https://t.me/rsshub) \| [Telegram 频道](https://t.me/awesomeRSSHub)
 
 ## 鸣谢
 
 ### Special Sponsors
 
-<a href="https://rixcloud.app/rsshub" target="_blank"><img height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/rixcloud.png"></a><a href="https://angelia.codeeer.com" target="_blank" style="margin-left: 10px;"><img height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/angelia.png"></a><a href="https://lizhi.io/store" target="_blank" style="margin-left: 10px;"><img height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/lizhi.jpg"></a>
+<a style="margin-right: 10px;" href="https://rixcloud.app/rsshub" target="_blank"><img alt="rixCloud" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/rixcloud.png"></a>
+<a style="margin-right: 10px;" href="https://angelia.codeeer.com" target="_blank"><img alt="期待" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/angelia.png"></a>
+<a style="margin-right: 10px;margin-left: 10px;" href="http://authing.cn" target="_blank"><img alt="Authing" height="55px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/authing.png"></a>
+<a style="margin-right: 10px;" href="https://store.lizhi.io/site/index/cid/lbqqzcg3" target="_blank"><img alt="荔枝数码" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/lizhi.jpg"></a>
 
 ### Sponsors
 
-| [Sayori Studio](https://t.me/SayoriStudio) | 匿名 | [Sion Kazama](https://blog.sion.moe) | [琚致远](https://www.shaoyaoju.org/) | [Rolly RSS 阅读器](https://www.coolapk.com/apk/239500) | [mokeyjay](https://www.mokeyjay.com/) | [tkaray](https://rayray.moe/) |
-| :----------------------------------------: | :--: | :----------------------------------: | :----------------------------------: | :----------------------------------------------------: | :-----------------------------------: | :---------------------------: |
-
+[Sayori Studio](https://t.me/SayoriStudio) . [Sion Kazama](https://blog.sion.moe) . [琚致远](https://www.shaoyaoju.org/) . [Rolly RSS 阅读器](https://www.coolapk.com/apk/239500) . [mokeyjay](https://www.mokeyjay.com/) . [tkaray](https://rayray.moe/) . [NeverBehave](https://never.pet/) . [萌开源联盟](https://www.moeunion.com) . [hooke007](https://github.com/hooke007/MPV_lazy)
 
 [![](https://opencollective.com/static/images/become_sponsor.svg)](/support/)
 

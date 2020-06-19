@@ -42,6 +42,12 @@ pageClass: routes
 
 <Route author="muzea" example="/cneb/guoneinews" path="/cneb/guoneinews"/>
 
+## 上海市生态环境局
+
+### 空气质量
+
+<Route author="nczitzk" example="/gov/shanghai/sthj" path="/gov/shanghai/sthj"/>
+
 ## 停电通知
 
 ### 南京市
@@ -98,7 +104,7 @@ pageClass: routes
 
 ### 全国气象预警
 
-<Route author="ylc395" example="/weatheralarm" path="/weatheralarm">
+<Route author="ylc395" example="/weatheralarm/广东省" path="/weatheralarm/:province?" :paramsDesc="['省份']">
 
 可通过全局过滤参数订阅您感兴趣的地区.
 
