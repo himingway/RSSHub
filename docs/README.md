@@ -17,7 +17,7 @@ sidebarDepth: 0
 
 RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容
 
-可以配合浏览器扩展 [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) 食用
+可以配合浏览器扩展 [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) 和 移动端辅助 App [RSSBud](https://github.com/Cay-Zhang/RSSBud) (iOS) 与 [RSSAid](https://github.com/LeetaoGoooo/RSSAid) (Android) 食用
 
 [Telegram 群](https://t.me/rsshub) \| [Telegram 频道](https://t.me/awesomeRSSHub)
 
@@ -25,14 +25,11 @@ RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以�
 
 ### Special Sponsors
 
-<a style="margin-right: 10px;" href="https://rixcloud.app/rsshub" target="_blank"><img alt="rixCloud" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/rixcloud.png"></a>
-<a style="margin-right: 10px;" href="https://angelia.codeeer.com" target="_blank"><img alt="期待" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/angelia.png"></a>
-<a style="margin-right: 10px;margin-left: 10px;" href="http://authing.cn" target="_blank"><img alt="Authing" height="55px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/authing.png"></a>
-<a style="margin-right: 10px;" href="https://store.lizhi.io/site/index/cid/lbqqzcg3" target="_blank"><img alt="荔枝数码" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/lizhi.jpg"></a>
+<a style="margin-right: 10px;" href="https://sa.net/" target="_blank"><img alt="Riven Cloud" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/rivencloudd.png"></a><a style="margin-right: 10px;" href="https://km.bytell.cn/wxcollect" target="_blank"><img alt="知拾收藏" height="60px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/bytell.png"></a>
 
 ### Sponsors
 
-[Sayori Studio](https://t.me/SayoriStudio) . [Sion Kazama](https://blog.sion.moe) . [琚致远](https://www.shaoyaoju.org/) . [Rolly RSS 阅读器](https://www.coolapk.com/apk/239500) . [mokeyjay](https://www.mokeyjay.com/) . [tkaray](https://rayray.moe/) . [NeverBehave](https://never.pet/) . [萌开源联盟](https://www.moeunion.com) . [hooke007](https://github.com/hooke007/MPV_lazy)
+[Sayori Studio](https://t.me/SayoriStudio) . [Sion Kazama](https://blog.sion.moe) . [琚致远](https://www.shaoyaoju.org/) . [Rolly RSS 阅读器](https://www.coolapk.com/apk/239500) . [mokeyjay](https://www.mokeyjay.com/) . [tkaray](https://rayray.moe/) . [萌开源联盟](https://www.moeunion.com) . [hooke007](https://github.com/hooke007/MPV_lazy) . [feeds.pub](https://feeds.pub)
 
 [![](https://opencollective.com/static/images/become_sponsor.svg)](/support/)
 
@@ -45,3 +42,9 @@ Logo designer [sheldonrrr](https://dribbble.com/sheldonrrr)
 ### Backers
 
 <a href="https://www.cloudflare.com" target="_blank"><img height="50px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/cloudflare.png"></a><a href="https://www.netlify.com" target="_blank" style="margin-left: 60px;"><img height="40px" src="https://cn-south-17-rsshub-16857749.oss.dogecdn.com/netlify.png"></a>
+
+## 相关项目
+
+-   [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) | 一个可以帮助你快速发现和订阅当前网站 RSS 和 RSSHub 的浏览器扩展
+-   [RSSBud](https://github.com/Cay-Zhang/RSSBud) ([TestFlight 公测](https://testflight.apple.com/join/rjCVzzHP)) | iOS 平台的 RSSHub Radar，专为移动生态优化
+-   [RSSAid](https://github.com/LeetaoGoooo/RSSAid) | 基于 Flutter 构建的 Android 平台的 RSSHub Radar
